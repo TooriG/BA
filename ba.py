@@ -6,7 +6,7 @@ from PIL import Image
 
 image = Image.open('logo2.png')
 st.sidebar.image(image,use_column_width=True)
-step = Image.open('BA_step1.png')
+step = Image.open('BA_step.png')
 st.sidebar.image(step,caption = '使い方',use_column_width=True)
 muki_img = Image.open('muki_img.png')
 st.sidebar.image(muki_img,caption = '向きについて',use_column_width=True)
