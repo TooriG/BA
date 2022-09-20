@@ -4,7 +4,7 @@ import cv2
 from PIL import Image
 from streamlit_option_menu import option_menu
 
-image = Image.open('ba_logo.png')
+image = Image.open('ba_logo1.png')
 st.image(image,use_column_width=True)
 step = Image.open('BA_step.png')
 
