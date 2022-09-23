@@ -26,7 +26,8 @@ selected = streamlit_menu(example=EXAMPLE_NO)
 if selected == "ホーム":
     # メイン画面
     # ラジオボタン
-    muki=st.radio("向き",('右向き', '左向き'))
+    st.header("向き")
+    muki=st.radio("向きについては「使い方」」をご覧ください",('右向き', '左向き'))
     print(muki);
     # ラジオボタン
     #st.radio("反射",('反射あり', '反射なし'),key = "radio2")
