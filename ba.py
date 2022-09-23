@@ -133,6 +133,7 @@ if selected == "ホーム":
     
 
 if selected == "使い方":
+    st.video('BoxAssembler説明動画.mp4', format="video/mp4", start_time=0)
     st.image(step,caption = '使い方',use_column_width=True)
     muki_img = Image.open('muki_img.png')
     st.image(muki_img,caption = '向きについて',use_column_width=True)
